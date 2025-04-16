@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya - Developer Portfolio</title>
+    <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+          }
+        body {
+            background-color: rgb(1, 1, 14);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(0, 0, 2);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(8, 8, 35);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #06042e;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+            align-items: center;
+
+        }
+
+        .firstsection div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 1rem;
+        }
+
+        .rightsection {
+            background-color: rgb(8, 4, 40);
+
+        }
+
+        .rightsection img {
+            width: 100%;
+            margin: 0;
+        }
+
+        .purple {
+            color: rgb(51, 22, 78);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+        
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 80px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #7878ab;
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            margin: 23px 122px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Satya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,my name is <span class="purple">Satya.</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="portfolio.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="Text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML elements tell the browser how to display content. 
+                        <br>
+                        HTML elements label pieces of content, such as headings,
+                     paragraphs, and links. 
+                     <br>
+                        HTML elements can have multiple attributes, which provide 
+                        <br>
+                        additional information about the elements. 
+                        <br>
+                        HTML documents are saved as text files that any browser can read and display. 
+                    
+                    </div>
+                </div>
+                
+                
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                         css developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        cascading:
+                        <br>
+                        CSS rules are applied in a cascading manner, meaning they can be inherited from parent elements to child elements, or overridden by more specific rules. 
+                        <br>
+                        desription:
+                        <br>
+                        Within each rule, declarations specify the properties (like color, font-size) and their values that will be applied to the selected elements. 
+                    
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="logo.png" alt="">
+                    <div class="vertical-title">
+                        js developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript (JS) is a dynamic, interpreted programming language primarily used to add interactivity to websites. It allows for client-side scripting, enabling web pages to respond to user actions without needing to reload. JavaScript is an essential technology for web development, working alongside HTML and CSS to create engaging user experiences. It's also used in server-side environments like Node.
+                    </div>
+                </div>
+                
+    
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Node.js developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. Built on Chrome's V8 JavaScript engine, Node.js enables developers to use JavaScript for server-side scripting, creating dynamic web content, and building scalable network applications. 
+                    </div>
+                </div>
+                    <div class="vertical">
+                        <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-title">
+                            c language (2023-2025)
+                        </div>
+                        <div class="vertical-desc">
+                            C is a general-purpose, procedural programming language, known for its efficiency and flexibility, widely used for systems programming, embedded systems, and creating software across various platforms. 
+                        </div>
+                    </div>
+                    
+                        <div class="vertical">
+                            <img class="image-top" src="developer.png" alt="">
+                            <div class="vertical-title">
+                                python language (2024-2025)
+                            </div>
+                            <div class="vertical-desc">
+                                Python is a high-level, general-purpose, interpreted, object-oriented programming language. It's known for its readability, simplicity, and versatility, making it popular for a wide range of applications, including web development, data science, machine learning, and more. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Satya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="foooter-fourth"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'graphics designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
